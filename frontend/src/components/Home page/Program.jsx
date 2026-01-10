@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaBookReader, FaHandHoldingHeart, FaLeaf } from 'react-icons/fa'
-import goal from '../assets/sustainable-development-goals.png' //importing goal image
+import goal from '../assets/goal.jpeg' //importing goal image
 
 const Program = () => {
   return (
