@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ body {
+/*font-family: "Lato", sans-serif;
+background:  #f1f5f9; */
+}
+
+/* Header section */
+.text{
+    font-size: x-small;
+}
+
+.color{
+    background-color: #0A285F;
+}
+
+/* Program section */
+.goal {
+    width: 50%;
+    height: auto;
+}
+
+.leaf {
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.bookreader {
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.handholdingheart {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
