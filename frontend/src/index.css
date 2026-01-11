@@ -26,16 +26,55 @@ background:  #f1f5f9; */
     color: green;
     display: flex;
     justify-content: center;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
 }
+
+ @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
 
 .bookreader {
     color: blue;
     display: flex;
     justify-content: center;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
 }
+
+ @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
 
 .handholdingheart {
     color: red;
     display: flex;
     justify-content: center;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
 }
+
+ @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
