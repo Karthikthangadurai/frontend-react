@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaBookReader, FaHandHoldingHeart, FaLeaf } from 'react-icons/fa'
-// import goal from '../assets/goal.jpeg' //importing goal image
 
 const Program = () => {
   return (
@@ -34,7 +33,7 @@ const Program = () => {
             </div>
               <div className='mx-10 bg-white rounded border border-gray-200 shadow flex flex-col justify-center items-center'>
                 <h1 className='pt-3 text-lg md:text-2xl font-semibold'>To Reach Our Goals</h1>
-                <img className='goal p-2 md:w-1/5 md:h-auto' src="./src/assets/goal.jpeg" alt="sustainable development goals" />
+                <img className='goal p-2 md:w-1/5 md:h-auto' src="./goal.jpeg" alt="sustainable development goals" />
                 </div>
 
         </div>
