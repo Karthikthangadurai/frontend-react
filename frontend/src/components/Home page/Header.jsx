@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaEnvelope, FaList, FaPhoneAlt,} from 'react-icons/fa';
-import logo from '../assets/logo.png' //importing logo image
+// import logo from '../assets/logo.png' //importing logo image
 
 const Header = () => {
   return (
@@ -21,7 +21,7 @@ const Header = () => {
     <section className='px-1 py-4 color text-white'>
         <div className='px-1 flex justify-between items-center'>
         <div className='md:text-2xl flex justify-center items-center'>
-            <img className='w-16' src={logo} alt="logo" />
+            <img className='w-16' src="./src/assets/logo.png" alt="logo" />
            <h1 className='font-semibold font-serif '>KANAVU FOUNDATION</h1> 
         </div>
         <div>
