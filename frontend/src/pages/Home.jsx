@@ -5,11 +5,11 @@ import Program from '../components/Home page/Program';
 
 const Home = () => {
   return (
-    <div>
+    <section>
         <Header/>
         {/*<Slidebar/>*/}
         <Program/>
-    </div>
+    </section>
   )
 }
 

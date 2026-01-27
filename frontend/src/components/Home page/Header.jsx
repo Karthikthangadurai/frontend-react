@@ -3,25 +3,23 @@ import { FaEnvelope, FaList, FaPhoneAlt,} from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <section>
+    <section className="sticky top-0 z-10 shadow">
         <div className='p-1 bg-indigo-100 flex justify-around items-center'>
             
             <div className='text md:text-base flex justify-center items-center gap-1 md:gap-2'>
                 <p className='text-fuchsia-600'><FaPhoneAlt/></p>
-                <p>+91 9876543210 </p>
+                <p className="font-semibold text-purple-900">+91 9876543210 </p>
             </div>
             <div className='text md:text-base flex justify-center items-center gap-1 md:gap-3'>
                 <p className=' text-purple-800 md:text-xl'><FaEnvelope/></p>
-                <p>admin@kanavufoundation.org</p>
+                <p className="font-semibold text-purple-900">admin@kanavufoundation.org</p>
             </div>
-            
-            <button className='md:text-xl text-red-600 font-extrabold'>X</button>
         </div>
     <section className='px-1 py-4 color text-white'>
         <div className='px-1 flex justify-between items-center'>
         <div className='md:text-2xl flex justify-center items-center'>
             <img className='w-16' src="./logo.png" alt="logo" />
-           <h1 className='font-semibold font-serif '>KANAVU FOUNDATION</h1> 
+           <h1 className='font-semibold italic'>KANAVU FOUNDATION</h1> 
         </div>
         <div>
             <div className='md:hidden'>
