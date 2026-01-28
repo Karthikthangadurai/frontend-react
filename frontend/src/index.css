@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
- body {
-/*font-family: "Lato", sans-serif;
-background:  #f1f5f9; */
-}
 
 /* Header section */
 .text{
@@ -23,7 +19,7 @@ background:  #f1f5f9; */
 }
 
 .leaf {
-    color: green;
+    color: rgb(6, 185, 6);
     display: flex;
     justify-content: center;
     animation-name: bounce;
@@ -42,7 +38,7 @@ background:  #f1f5f9; */
     }
 
 .bookreader {
-    color: blue;
+    color: rgb(3, 3, 198);
     display: flex;
     justify-content: center;
     animation-name: bounce;
@@ -61,7 +57,7 @@ background:  #f1f5f9; */
     }
 
 .handholdingheart {
-    color: red;
+    color: rgb(246, 24, 24);
     display: flex;
     justify-content: center;
     animation-name: bounce;

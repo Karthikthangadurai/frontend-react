@@ -15,11 +15,11 @@ const Header = () => {
                 <p className="font-semibold text-purple-900">admin@kanavufoundation.org</p>
             </div>
         </div>
-    <section className='px-1 py-4 color text-white'>
+    <section className='px-1 py-1 md:py-4 color text-white'>
         <div className='px-1 flex justify-between items-center'>
         <div className='md:text-2xl flex justify-center items-center'>
             <img className='w-16' src="./logo.png" alt="logo" />
-           <h1 className='font-semibold italic'>KANAVU FOUNDATION</h1> 
+           <h1 className='font-semibold'>KANAVU FOUNDATION</h1> 
         </div>
         <div>
             <div className='md:hidden'>
